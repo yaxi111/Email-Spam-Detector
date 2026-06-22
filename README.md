@@ -27,7 +27,8 @@ This project builds a machine learning pipeline to automatically classify SMS me
 ## Project Structure
 ```
 Email-Spam-Detector/
-├── spam.csv                  # SMS Spam Collection dataset
+├── data/
+│   └── spam.csv                  # SMS Spam Collection dataset
 ├── models/
 │   ├── lr_model.pkl              # Trained Logistic Regression model
 │   ├── nb_model.pkl              # Trained Naive Bayes model
